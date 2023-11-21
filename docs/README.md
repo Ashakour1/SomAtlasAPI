@@ -8,7 +8,8 @@ SomRegionsAPI: Streamlining App Development with Key Somali Regional Data. This 
 1.How to use
 2.Documentation
 
-
+### License
+License[license](LICENSE) 
 ## Author
 - Github [Github](https://github.com/Ashakour1)
 - X [Twitter](https://twitter.com/Ashakour17)

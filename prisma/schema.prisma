@@ -9,3 +9,12 @@ datasource db {
   provider = "postgresql"
   url      = env("DATABASE_URL")
 }
+
+model State {
+  id        Int      @id @default(autoincrement())
+  name      String
+  area String
+  capital String
+  type String
+  district    String[]
+}

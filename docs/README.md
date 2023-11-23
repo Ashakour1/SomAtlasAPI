@@ -17,7 +17,7 @@ To embark on this journey of simplicity and efficiency, refer to the [Getting St
 5. [Endpoints](#endpoints)
 6. [Author](#author)
 
-## Key Benefits of SomRegionsAPI?
+## Key Benefits
 
 🌍 **Comprehensive Access States and Districts**: SomRegionsAPI provides easy access to a comprehensive all states and districts in Somalia. No more struggling to gather accurate and up-to-states and districts – it's all at your fingertips.
 

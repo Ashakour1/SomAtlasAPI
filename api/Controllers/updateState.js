@@ -1,5 +1,7 @@
 import asyncHandler from "express-async-handler";
 import prisma from "../config/prisma.js";
+import { request } from "express";
+import { response } from "express";
 
 /**
  * @controller updateState
@@ -10,7 +12,7 @@ import prisma from "../config/prisma.js";
  * @body {name,area,district}
  */
 
-export const updateState = asyncHandler(async (req, res) => {
+export const updateState = asyncHandler(async (req , res ) => {
   // get data from body
   const { name, area, capital, type, district } = req.body;
   //   get id from params

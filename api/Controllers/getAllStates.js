@@ -12,7 +12,7 @@ import prisma from "../config/prisma.js";
 export const getAllStates = asyncHandler(async (req, res) => {
   const states = await prisma.state.findMany();
 
-  if (states == 0) {
+  if (states.length === 0) {
     res.status(404);
     throw new Error("States not found");
   }
@@ -21,7 +21,11 @@ export const getAllStates = asyncHandler(async (req, res) => {
     success: true,
     error: null,
     results: {
-      data: states,
+      data: {
+        states: {
+          states,
+        },
+      },
     },
     Total: states.length,
   });

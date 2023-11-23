@@ -1,5 +1,7 @@
 import asyncHandler from "express-async-handler";
 import prisma from "../config/prisma.js";
+import { request } from "express";
+import { response } from "express";
 
 /**
  * @controller setStates

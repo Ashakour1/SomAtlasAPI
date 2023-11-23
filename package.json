@@ -6,8 +6,7 @@
   "main": "server.js",
   "scripts": {
     "db-push": "npx prisma db push",
-    "server": "nodemon api/server.js",
-    "script": "nodemon api/script.js"
+    "server": "nodemon api/server.js"
   },
   "author": "Shakour",
   "license": "MIT",

@@ -15,5 +15,8 @@
     "svelte": "^4.0.5",
     "tailwindcss": "^3.3.5",
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "iconify-icon": "^1.0.8"
   }
 }

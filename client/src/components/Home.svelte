@@ -12,8 +12,8 @@
             is your go-to solution, meticulously designed to simplify the complexities of geographic data integration.
             </p>
             <div class="flex justify-center">
-               <button class="bg-white w-36 py-3 my-6 rounded-md text-black font-medium mx-2  hover:bg-black hover:text-white ">Docs</button>
-               <button class=" border-l-2 border-b-2 w-36 py-3 my-6 rounded text-white font-medium mx-2 hover:bg-white hover:text-black">Watch Tuturial</button>
+               <button class="bg-white w-36 py-3 my-8 rounded-md text-black font-semibold mx-2  hover:bg-black hover:text-white ">Docs</button>
+               <button class=" font-semibold border-l-2 border-b-2 w-36 py-2 my-8 rounded text-white  mx-2 hover:bg-white hover:text-black ">Watch Tuturial</button>
             </div>
         
           <div class="  items-center pt-28  ">

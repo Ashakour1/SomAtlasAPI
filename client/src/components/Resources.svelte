@@ -1,4 +1,4 @@
-<section>
+<section id="resources">
     <div class="max-w-[1240px] mx-auto py-[4rem] px-5">
         <div class="text-center max-w-[850px] mx-auto ">
             <h1 class="text-3xl font-bold">Resources</h1>

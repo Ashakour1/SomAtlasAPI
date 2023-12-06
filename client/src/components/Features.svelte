@@ -5,19 +5,19 @@
     <div class="max-w-[1240px]  mx-auto py-[4rem] px-5">
    <div class="max-w-[850px] mx-auto">
     <h1 class="text-center text-3xl font-bold text-black">What's SomAtlasAPI?</h1>
-    <p class="mt-10 text-2xl text-center text-gray-600">SomAtlasAPI is your all-encompassing platform, providing effortless access to explore detailed information on states and districts in Somalia through our seamless API.</p>
+    <p class="mt-10 text-2xl text-center  text-gray-400">SomAtlasAPI is your all-encompassing platform, providing effortless access to explore detailed information on states and districts in Somalia through our seamless API.</p>
    </div>
-    <div class="grid gap-4 md:grid-cols-3 sm:grid-cols-1">
-        <div class=" w-full  shadow-2xl bg-black p-4 mt-24  my-8 items-center text-center text-white flex flex-col rounded-lg hover:scale-105 duration-300  ">
+    <div class="grid gap-4 md:grid-cols-3 sm:grid-cols-1 py-[4rem]">
+        <div class="w-full  shadow-2xl bg-black mt-10 py-4 items-center text-center text-white flex flex-col rounded-lg hover:scale-105 duration-300">
 
             <iconify-icon icon="mdi:world" class="text-3xl text-blue-700"></iconify-icon>
 
             <div class="font-medium text-center">
-                <h1 class="pt-4 text-xl font-bold mx-4">Comprehensive Access</h1>
-                <p class="py-4  text-lg mx-4">Instantly access detailed data on Somalia's states and districts.</p>
+                <h1 class="pt-5 text-xl font-bold mx-4">Comprehensive Access</h1>
+                <p class="py-8  text-lg mx-4">Instantly access detailed data on Somalia's states and districts.</p>
             </div>
         </div>
-        <div class="w-full shadow-xl bg-gray-600 p-4 mt-24  my-8 items-center text-center text-white  flex flex-col rounded-lg hover:scale-105 duration-300 ">
+        <div class="w-full shadow-xl bg-gray-600 mt-10 py-4  items-center text-center text-white  flex flex-col rounded-lg hover:scale-105 duration-300 ">
 
             <iconify-icon icon="mdi:rocket" class="text-3xl text-blue-700"></iconify-icon>
 
@@ -26,7 +26,7 @@
                 <p class="py-8  text-lg mx-4">Effortlessly integrate location data into your registration process.</p>
             </div>
         </div>
-        <div class="w-full shadow-xl bg-black  p-4 mt-24  my-8 items-center text-center text-white  flex flex-col rounded-lg hover:scale-105 duration-300 ">
+        <div class="w-full shadow-xl bg-black mt-10 py-4 items-center text-center text-white  flex flex-col rounded-lg hover:scale-105 duration-300">
 
             <iconify-icon icon="mdi:high-voltage" class="text-3xl text-blue-700"></iconify-icon>
 

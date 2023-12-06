@@ -13,5 +13,8 @@
            <p class="text-2xl bg-gray-400 inline-block p-2 rounded-sm">api/v1/states/state/:id</p>
          <p class="py-4 text-2xl">This endpoint allows the retrieval of detailed information about a specific state in Somalia. The :id parameter represents the unique identifier of the state.</p>
         </div>
+      
     </div>
+    
+  
 </section>

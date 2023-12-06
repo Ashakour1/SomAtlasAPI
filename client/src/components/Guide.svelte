@@ -1,20 +1,21 @@
-<section class="bg-white text-black">
-    <div class="max-w-[1240px] mx-auto py-[4rem] px-5">
-        <div class="max-w-[850px] mx-auto text-center">
-            <h1 class="text-3xl font-bold ">Guides</h1>
-            <p class="text-2xl  my-5">While the examples below demonstrate the Fetch API in JavaScript, you can integrate SomAtlasAPI with any language of your choice.</p>
-            <p class="text-2xl text-center">You can copy paste the code in your browser console to quickly test SomAtlasAPI.</p>
+<footer class="bg-white">
+    <hr class="border border-blue-700">
+    <div class="max-w-[1240px] mx-auto py-[4rem] px-5 flex justify-between">
+        <div class="flex  text-black">
+            <a href="/" class="font-bold text-2xl">
+                <h1>SomAtlasAPI
+                </h1>
+            </a>
+                <p class="mt-1.5 pl-5 text-sm text-center">Copyright © 2023 SomAtlas. All Rights Reserved</p>
+           
         </div>
-        <h1 class="font-bold text-3xl pt-10">Getting Resources</h1>
-        <div class="bg-black text-white text-2xl text-left my-5 overflow-auto">
-        <pre>
-            <code>
-     fetch('https://SomAtlasAPI.com/states/state/1')
-        .then((response) => response.json())
-        .then((json) => console.log(json));
-         </code>
-          </pre>
+        <div class="text-2xl text-black">
+            <iconify-icon icon="mdi:twitter"></iconify-icon>
+            <iconify-icon icon="mdi:discord"></iconify-icon>
         </div>
-
     </div>
-</section>
+    <hr class="border border-black">
+    <div class="py-4 text-center text-lg text-black font-semibold ">
+        <p class="">Founder of SomAtlas <a href="https://github.com/Ashakour1" class="underline">Abdishakour</a></p>
+    </div>
+</footer>

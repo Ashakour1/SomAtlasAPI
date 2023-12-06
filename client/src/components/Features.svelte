@@ -7,8 +7,8 @@
     <h1 class="text-center text-3xl font-bold text-black">What's SomAtlasAPI?</h1>
     <p class="mt-10 text-2xl text-center text-gray-600">SomAtlasAPI is your all-encompassing platform, providing effortless access to explore detailed information on states and districts in Somalia through our seamless API.</p>
    </div>
-    <div class="grid gap-4 md:grid-cols-3 sm:grid-cols-1 ">
-        <div class=" w-full  shadow-2xl bg-black p-4 mt-24  my-8 items-center text-center text-white flex flex-col rounded-lg hover:scale-105 duration-300 ">
+    <div class="grid gap-4 md:grid-cols-3 sm:grid-cols-1">
+        <div class=" w-full  shadow-2xl bg-black p-4 mt-24  my-8 items-center text-center text-white flex flex-col rounded-lg hover:scale-105 duration-300  ">
 
             <iconify-icon icon="mdi:world" class="text-3xl text-blue-700"></iconify-icon>
 

@@ -3,16 +3,14 @@
     import 'iconify-icon'
 
     let isNavOpen = false;
-
+    
     function toggleNav() {
         isNavOpen = !isNavOpen;
     }
 </script>
 
-<header class="fixed w-full backdrop-blur-sm pt-2">
+<header class="fixed w-full backdrop-blur-sm pt-2 z-40">
     <div  class="flex justify-between items-center max-w-[1240px] mx-auto relative">
-
-    
    <div class="text-2xl font-bold">
     <h1>SomAtlasAPI
     </h1>
@@ -33,7 +31,7 @@
         <ul class="font-bold">
               <li class="p-5"><a href="/">Home</a></li>
               <li class="p-5"><a href="#resources">Resources</a></li>
-              <li class="p-5"><a href="#guide">Guide</a></li>
+              <li class="p-5"><a href="#features">Features</a></li>
               <li class="p-5"><a href="/">Docs</a></li>
         </ul>
         </div>

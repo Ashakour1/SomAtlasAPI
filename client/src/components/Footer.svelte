@@ -1,6 +1,6 @@
 <script>
     import 'iconify-icon'
-    import blackLogo from "../../images/black.png"
+    import blackLogo from "../images/black.png"
     
 </script>
 <footer class="bg-white">

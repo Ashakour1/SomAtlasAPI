@@ -1,6 +1,6 @@
 <script>
     import 'iconify-icon'
-    import whitelogo from "../../images/white.png"
+    import whitelogo from "../images/white.png"
     let isNavOpen = false;
     
     function toggleNav() {

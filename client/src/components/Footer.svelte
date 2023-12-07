@@ -1,7 +1,12 @@
+<script>
+    import 'iconify-icon'
+    import blackLogo from "../../images/black.png"
+    
+</script>
 <footer class="bg-white">
     <div class="max-w-[1240px] mx-auto py-8 px-4 md:px-8 flex flex-col md:flex-row md:justify-between">
         <div class="text-black mb-4 md:mb-0 md:flex md:items-center">
-            <a href="/"><img src="../images/black.png" alt="" class="w-40"></a>
+            <a href="/"><img src={blackLogo} alt="" class="w-40"></a>
             <p class="mt-1.7 md:pl-5 text-center text-base">Copyright © 2023 SomAtlas. All Rights Reserved</p>
         </div>
         <div class="text-2xl text-black flex">

@@ -10,16 +10,16 @@
     <div class="grid gap-4 md:grid-cols-3 sm:grid-cols-1 py-[4rem]">
         <div class="w-full  shadow-2xl bg-black mt-10 py-4 items-center text-center text-white flex flex-col rounded-lg hover:scale-105 duration-300">
 
-            <iconify-icon icon="mdi:world" class="text-3xl text-blue-700"></iconify-icon>
+            <iconify-icon icon="mdi:world" class="text-3xl text-green-300"></iconify-icon>
 
             <div class="font-medium text-center">
                 <h1 class="pt-5 text-xl font-bold mx-4">Comprehensive Access</h1>
                 <p class="py-8  text-lg mx-4">Instantly access detailed data on Somalia's states and districts.</p>
             </div>
         </div>
-        <div class="w-full shadow-xl bg-gray-600 mt-10 py-4  items-center text-center text-white  flex flex-col rounded-lg hover:scale-105 duration-300 ">
+        <div class="w-full shadow-xl bg-green-300 mt-10 py-4  items-center text-center text-black  flex flex-col rounded-lg hover:scale-105 duration-300 ">
 
-            <iconify-icon icon="mdi:rocket" class="text-3xl text-blue-700"></iconify-icon>
+            <iconify-icon icon="mdi:rocket" class="text-3xl text-black"></iconify-icon>
 
             <div class="font-medium text-center">
                 <h1 class="pt-5 text-xl font-bold mx-4">Simplified Registration</h1>
@@ -28,7 +28,7 @@
         </div>
         <div class="w-full shadow-xl bg-black mt-10 py-4 items-center text-center text-white  flex flex-col rounded-lg hover:scale-105 duration-300">
 
-            <iconify-icon icon="mdi:high-voltage" class="text-3xl text-blue-700"></iconify-icon>
+            <iconify-icon icon="mdi:high-voltage" class="text-3xl text-green-300"></iconify-icon>
 
             <div class="font-medium text-center">
                 <h1 class="pt-5 text-xl font-bold mx-4"> Real-Time Updates</h1>

@@ -5,8 +5,8 @@ export const endpoints = {
     Description: "get All States",
   },
   getStateById: {
-    path: "api/states/state/:id",
+    path: "api/states/:id",
     method: "GET",
-    Description: "get  State by id",
+    Description: "get State by id",
   },
 };

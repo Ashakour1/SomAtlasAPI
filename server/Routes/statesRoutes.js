@@ -51,6 +51,6 @@ router.delete("/:id", deleteState);
  * @access Public
  * @param {id}
  */
-router.get("/state/:id", getState);
+router.get("/:id", getState);
 
 export default router;

@@ -11,7 +11,7 @@
 <header class="fixed w-full backdrop-blur-sm pt-2 z-40">
     <div  class="flex justify-between items-center max-w-[1240px] mx-auto relative px-4 md:px-0">
    <div class="text-2xl font-bold">
-    <a href="/"><img src={src} alt="logo" class="w-40"></a>
+    <a href="/"><img src={src} alt="logo"></a>
    </div>
    <div class="">
         <ul class=" hidden md:flex font-bold ">

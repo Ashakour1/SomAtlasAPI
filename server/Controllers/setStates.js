@@ -1,7 +1,6 @@
 import asyncHandler from "express-async-handler";
 import prisma from "../../server/config/prisma.js";
-import { request } from "express";
-import { response } from "express";
+
 
 /**
  * @controller setStates
@@ -13,10 +12,10 @@ import { response } from "express";
  */
 export const setStates = asyncHandler(async (req, res) => {
   // get data from body
-  const { name, city, districts } = req.body;
+  const { name, city, district } = req.body;
 
   // check if all fields are filled
-  if (!name || !city || !districts) {
+  if (!name || !city || !district) {
     res.status(400);
     throw new Error("please fill all the fields");
   }

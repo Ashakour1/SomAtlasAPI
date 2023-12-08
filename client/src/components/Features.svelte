@@ -4,8 +4,8 @@
 <section class="bg-white" id="features">
     <div class="max-w-[1240px]  mx-auto py-[4rem] px-5">
    <div class="max-w-[850px] mx-auto">
-    <h1 class="text-center text-3xl font-bold text-black">What's SomAtlasAPI?</h1>
-    <p class="mt-10 text-2xl text-center  text-gray-400">SomAtlasAPI is your all-encompassing platform, providing effortless access to explore detailed information on states and districts in Somalia through our seamless API.</p>
+    <h1 class="text-center text-3xl font-bold text-black">Why Choose <span class="text-green-400">SomAtlasAPI?</span></h1>
+    <p class="mt-10 text-2xl text-center  text-gray-600">SomAtlasAPI is your all-encompassing platform, providing effortless access to explore detailed information on states and districts in Somalia through our seamless API.</p>
    </div>
     <div class="grid gap-4 md:grid-cols-3 sm:grid-cols-1 py-[4rem]">
         <div class="w-full  shadow-2xl bg-black mt-10 py-4 items-center text-center text-white flex flex-col rounded-lg hover:scale-105 duration-300">

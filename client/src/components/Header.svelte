@@ -22,10 +22,10 @@
         </ul>
    </div>
    
-   <button on:click={toggleNav} class="text-3xl md:hidden"><iconify-icon icon="mdi:home"></iconify-icon></button>
+   <button on:click={toggleNav} class="text-3xl md:hidden"><iconify-icon icon="mdi:menu" class="border border-green-300 rounded-sm"></iconify-icon></button>
 
     {#if isNavOpen}
-    <div class="md:hidden absolute top-8 right-0  bg-gray-400" class:open={isNavOpen}>
+    <div class="md:hidden absolute top-10 right-0  bg-green-300 text-center  text-black rounded-sm w-[35]" class:open={isNavOpen}>
         <ul class="font-bold">
               <li class="p-5 hover:underline"><a href="/">Home</a></li>
               <li class="p-5 hover:underline"><a href="#resources">Resources</a></li>

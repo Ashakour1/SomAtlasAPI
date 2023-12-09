@@ -11,10 +11,10 @@ import prisma from "../../server/config/prisma.js";
  */
 export const setStates = asyncHandler(async (req, res) => {
   // get data from body
-  const { name, city, district } = req.body;
+  const { name,type, capitalCity, districts } = req.body;
 
   // check if all fields are filled
-  if (!name || !city || !district) {
+  if (!name || !type || !capitalCity || !districts) {
     res.status(400);
     throw new Error("please fill all the fields");
   }
@@ -23,7 +23,7 @@ export const setStates = asyncHandler(async (req, res) => {
   const stateExist = await prisma.state.findFirst({
     where: {
       name,
-      city,
+      capitalCity,
     },
   });
 

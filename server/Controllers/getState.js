@@ -1,6 +1,5 @@
 import asyncHandler from "express-async-handler";
 import prisma from "../../server/config/prisma.js";
-
 /**
  * @controller findState
  * @route  /api/states/:id
@@ -31,7 +30,11 @@ export const getState = asyncHandler(async (req, res) => {
     success: true,
     error: null,
     results: {
-      data: state,
+      data: {
+        state :{
+          state
+        }
+      }
     },
   });
 });

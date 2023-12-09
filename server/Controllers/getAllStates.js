@@ -27,6 +27,6 @@ export const getAllStates = asyncHandler(async (req, res) => {
         },
       },
     },
-    Total: states.length,
+    Total: state.length,
   });
 });

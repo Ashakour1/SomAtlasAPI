@@ -14,7 +14,7 @@
                 </p>
         </div>
             <div class="flex justify-center">
-               <button class="bg-green-300 w-36 py-3 my-8 rounded-md text-black font-semibold mx-2  hover:bg-black hover:border border-green-300 hover:text-white ">Docs</button>
+               <button class="bg-green-300 w-36 py-3 my-8 rounded-md text-black font-semibold mx-2  hover:bg-black hover:border border-green-300 hover:text-white "><a href="https://docs.somatlas.dev/">Docs</a></button>
                <button class=" font-semibold border-l-2 border-b-2 w-36 py-2 my-8 rounded text-white  mx-2 hover:border hover:border-green-300 hover:border-l-2 hover:border-b-2">Watch Tuturial</button>
             </div>
         

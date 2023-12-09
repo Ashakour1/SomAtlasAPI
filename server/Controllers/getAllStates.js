@@ -10,8 +10,7 @@ import prisma from "../config/prisma.js";
  */
 
 export const getAllStates = asyncHandler(async (req, res) => {
-
-  const states = await prisma.states.findMany();
+  const states = await prisma.state.findMany();
 
   if (states.length === 0) {
     res.status(404);
@@ -24,7 +23,7 @@ export const getAllStates = asyncHandler(async (req, res) => {
     results: {
       data: {
         states: {
-          states,
+          state,
         },
       },
     },

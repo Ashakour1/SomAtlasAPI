@@ -19,7 +19,7 @@ export const updateState = asyncHandler(async (req, res) => {
   const { id } = req.params;
 
   // check if all fields are filled
-  const stateExist = await prisma.states.findUnique({
+  const stateExist = await prisma.state.findUnique({
     where: {
       id: Number(id),
     },
@@ -32,16 +32,15 @@ export const updateState = asyncHandler(async (req, res) => {
   }
 
   // update state
-  const updatedState = await prisma.states.update({
+  const updatedState = await prisma.state.update({
     where: {
       id: Number(id),
     },
     data: {
       name,
-      area,
-      district,
-      capital,
       type,
+      capital,
+      district,
     },
   });
 

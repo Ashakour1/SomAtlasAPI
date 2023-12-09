@@ -1,12 +1,10 @@
 import asyncHandler from "express-async-handler";
 import prisma from "../../server/config/prisma.js";
-import { request } from "express";
-import { response } from "express";
 
 export const deleteState = asyncHandler(async (req, res) => {
   const { id } = req.params;
 
-  const stateExist = await prisma.states.findUnique({
+  const stateExist = await prisma.state.findUnique({
     where: {
       id: Number(id),
     },

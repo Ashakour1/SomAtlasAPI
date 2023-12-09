@@ -1,7 +1,6 @@
 import asyncHandler from "express-async-handler";
 import prisma from "../../server/config/prisma.js";
 
-
 /**
  * @controller setStates
  * @route  /api/states
@@ -21,7 +20,7 @@ export const setStates = asyncHandler(async (req, res) => {
   }
 
   // check  state exist
-  const stateExist = await prisma.states.findFirst({
+  const stateExist = await prisma.state.findFirst({
     where: {
       name,
       city,
@@ -35,10 +34,10 @@ export const setStates = asyncHandler(async (req, res) => {
   }
 
   // create state
-  const createdState = await prisma.states.create({
+  const createdState = await prisma.state.create({
     data: {
       name,
-      city
+      city,
     },
   });
 

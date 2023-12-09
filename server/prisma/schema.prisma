@@ -11,12 +11,10 @@ datasource db {
 }
 
 
-model States {
+model State {
   id        Int      @id @default(autoincrement())
   name      String
   type     String
   capitalCity      String
-  district  String[]
-  createdAt DateTime @default(now())
-  updatedAt DateTime @updatedAt
+  districts  String[]
 }

@@ -1,7 +1,5 @@
 import asyncHandler from "express-async-handler";
 import prisma from "../../server/config/prisma.js";
-import { request } from "express";
-import { response } from "express";
 
 /**
  * @controller findState
@@ -16,12 +14,11 @@ export const getState = asyncHandler(async (req, res) => {
   const { id } = req.params;
 
   // find state
-  const state = await prisma.states.findUnique({
+  const state = await prisma.state.findUnique({
     where: {
       id: Number(id),
     },
   });
-  
 
   // check if state exist
   if (!state) {

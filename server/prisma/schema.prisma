@@ -14,7 +14,8 @@ datasource db {
 model States {
   id        Int      @id @default(autoincrement())
   name      String
-  city      String
+  type     String
+  capitalCity      String
   district  String[]
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

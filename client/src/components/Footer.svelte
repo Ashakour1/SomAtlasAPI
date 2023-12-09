@@ -10,8 +10,8 @@
             <p class="mt-1.7 md:pl-5 text-center text-base">Copyright © 2023 SomAtlas. All Rights Reserved</p>
         </div>
         <div class="text-2xl text-black flex">
-            <a href="/" class="mr-4 text-blue-400 text-3xl"><iconify-icon icon="mdi:twitter"></iconify-icon></a>
-            <a href="/" class="mr-4 text-blue-800 text-3xl"><iconify-icon icon="mdi:discord" ></iconify-icon></a>
+            <a href="https://twitter.com/somatlasdev" class="mr-4 text-blue-400 text-3xl"><iconify-icon icon="mdi:twitter"></iconify-icon></a>
+            <a href="https://discord.gg/PaaCugzV" class="mr-4 text-blue-800 text-3xl"><iconify-icon icon="mdi:discord" ></iconify-icon></a>
         </div>
     </div>
     <hr class="border border-black">

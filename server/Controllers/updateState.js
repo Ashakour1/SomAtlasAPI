@@ -14,7 +14,7 @@ import { response } from "express";
 
 export const updateState = asyncHandler(async (req, res) => {
   // get data from body
-  const { name, type, capital, district } = req.body;
+  const { name, type, capital, districts } = req.body;
   //   get id from params
   const { id } = req.params;
 
@@ -40,7 +40,7 @@ export const updateState = asyncHandler(async (req, res) => {
       name,
       type,
       capital,
-      district,
+      districts,
     },
   });
 

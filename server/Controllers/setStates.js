@@ -37,8 +37,10 @@ export const setStates = asyncHandler(async (req, res) => {
   const createdState = await prisma.state.create({
     data: {
       name,
-      city,
-    },
+      capitalCity,
+      type,
+      districts
+    }
   });
 
   // return response with created state

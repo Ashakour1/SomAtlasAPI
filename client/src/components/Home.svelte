@@ -4,7 +4,7 @@
 <section class="bg-black">
     <div class="max-w-[1240px] mx-auto ">
 
-    <div class=" max-w-[850px] pt-16 w-full min-h-screen mx-auto text-center flex flex-col justify-center  ">
+    <div class=" max-w-[850px] pt-20 w-full min-h-screen mx-auto text-center flex flex-col justify-center  ">
         <div class="px-2 md:px-0">
             <h1 class="text-2xl font-bold">Welcome to <span class="text-green-300">SomAtlasAPI</span>
                 – Your Passport to Effortless App Development!</h1>

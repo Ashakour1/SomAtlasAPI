@@ -12,7 +12,8 @@
     }
 </script>
 
-<header class="fixed w-full backdrop-blur-sm pt-2 z-40">
+<header class="fixed w-full backdrop-blur-sm pt-2 z-40 bg-[rgba(0,0,0,.5)]
+">
     <div class="flex justify-between items-center max-w-[1240px] mx-auto relative px-4 md:px-0">
         <div class="text-2xl font-bold">
             <a href="/"><img src={whitelogo} alt="logo" class="w-40"></a>

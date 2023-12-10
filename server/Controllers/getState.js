@@ -31,9 +31,7 @@ export const getState = asyncHandler(async (req, res) => {
     error: null,
     results: {
       data: {
-        state :{
-          state
-        }
+        state 
       }
     },
   });

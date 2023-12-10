@@ -6,11 +6,11 @@
         </div>
         
         <div class="my-20">
-           <p class="lg:text-2xl md:text-xl bg-green-300 inline-block p-0.5 rounded-sm text-black"><a href="https://som-atlas.onrender.com/api/v1/states">api/v1/states</a></p>
+           <p class="lg:text-2xl md:text-xl bg-green-300 inline-block p-0.5 rounded-sm text-black"><a href="https://www.api.somatlas.dev/api/v1/states">api/v1/states</a></p>
          <p class="py-4 lg:text-2xl md:text-xl">This endpoint provides a comprehensive list of states and districts within Somalia. It facilitates the retrieval of detailed information about each region.</p>
         </div>
         <div class="my-10">
-           <p class="lg:text-2xl md:text-xl bg-green-300 inline-block p-0.5 rounded-sm text-black"><a href="https://som-atlas.onrender.com/api/v1/states/1">api/v1/states/1</a></p>
+           <p class="lg:text-2xl md:text-xl bg-green-300 inline-block p-0.5 rounded-sm text-black"><a href="https://www.api.somatlas.dev/api/v1/states/1">api/v1/states/1</a></p>
          <p class="py-4 lg:text-2xl md:text-xl">This endpoint allows the retrieval of detailed information about a specific state in Somalia. The :id parameter represents the unique identifier of the state.</p>
         </div>
       

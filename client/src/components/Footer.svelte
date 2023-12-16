@@ -15,7 +15,7 @@
         </div>
     </div>
     <hr class="border border-black">
-    <div class="py-4 text-center lg:text-2xl md:text-xl sm:text-sm text-black font-medium md:text-center ">
-        <p class="">Developed by ❤️ <a href="https://github.com/Ashakour1" class="underline">Abdishakour</a></p>
+    <div class="py-4 text-center lg:text-xl md:text-xl sm:text-sm text-white font-medium md:text-center bg-black">
+        <p class="">Developed with ❤️ by <a href="https://github.com/Ashakour1" class="underline text-green-300">Abdishakour</a></p>
     </div>
 </footer>

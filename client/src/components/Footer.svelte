@@ -16,6 +16,6 @@
     </div>
     <hr class="border border-black">
     <div class="py-4 text-center lg:text-2xl md:text-xl sm:text-sm text-black font-medium md:text-center ">
-        <p class="">Founder of SomAtlas <a href="https://github.com/Ashakour1" class="underline">Abdishakour</a></p>
+        <p class="">Developed by ❤️ <a href="https://github.com/Ashakour1" class="underline">Abdishakour</a></p>
     </div>
 </footer>

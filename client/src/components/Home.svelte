@@ -3,12 +3,11 @@
 </script>
 <section class="bg-black">
     <div class="max-w-[1240px] mx-auto ">
-
     <div class=" max-w-[850px] pt-20 w-full min-h-screen mx-auto text-center flex flex-col justify-center  ">
         <div class="px-2 md:px-0">
             <h1 class="text-2xl font-bold">Welcome to <span class="text-green-300">SomAtlasAPI</span>
                 – Your Passport to Effortless App Development!</h1>
-            <p class="text-3xl pt-3  text-gray-400">
+            <p class="text-2xl pt-3  text-gray-400">
                 Are you a developer looking to seamlessly integrate user registration based on Somali states and districts? Look no further! SomAtlasAPI
                 is your go-to solution, meticulously designed to simplify the complexities of geographic data integration.
                 </p>

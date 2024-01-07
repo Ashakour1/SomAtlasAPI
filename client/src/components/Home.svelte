@@ -8,8 +8,7 @@
             <h1 class="text-2xl font-bold">Welcome to <span class="text-green-300">SomAtlasAPI</span>
                 – Your Passport to Effortless App Development!</h1>
             <p class="text-2xl pt-3  text-gray-400">
-                Are you a developer looking to seamlessly integrate user registration based on Somali states and districts? Look no further! SomAtlasAPI
-                is your go-to solution, meticulously designed to simplify the complexities of geographic data integration.
+                SomAtlasAPI is a specialized tool for developers to integrate user registration with geographic data for Somali regions, streamlining data handling.
                 </p>
         </div>
             <div class="flex justify-center">

@@ -19,23 +19,23 @@ To embark on this journey of simplicity and efficiency, refer to the [Getting St
 
 ## Key Benefits
 
-🌍 **Comprehensive Access States and Districts**: SomRegionsAPI provides easy access to a comprehensive all states and districts in Somalia. No more struggling to gather accurate and up-to-states and districts – it's all at your fingertips.
+🌍 **Comprehensive Access States and Districts**: SomAtlasAPI provides easy access to a comprehensive all states and districts in Somalia. No more struggling to gather accurate and up-to-states and districts – it's all at your fingertips.
 
-🚀 **Simplified Registration**: When you need to register a person's place of birth or residence, SomRegionsAPI makes it a breeze. Seamlessly integrate the API into your registration process, and let users select their state and district effortlessly.
+🚀 **Simplified Registration**: When you need to register a person's place of birth or residence, SomAtlasAPI makes it a breeze. Seamlessly integrate the API into your registration process, and let users select their state and district effortlessly.
 
-📲 **User-Friendly Integration**: With SomRegionsAPI, the integration process is designed to be user-friendly for developers. You won't need to navigate complex systems; the API is crafted to be intuitive, making your development journey smoother.
+📲 **User-Friendly Integration**: With SomAtlasAPI, the integration process is designed to be user-friendly for developers. You won't need to navigate complex systems; the API is crafted to be intuitive, making your development journey smoother.
 
-⚡ **Real-Time Updates**: Stay ahead with real-time updates. SomRegionsAPI ensures that your app always has the latest geographic information, keeping your user data accurate and reliable.
+⚡ **Real-Time Updates**: Stay ahead with real-time updates. SomAtlasAPI ensures that your app always has the latest geographic information, keeping your user data accurate and reliable.
 
-🛠️ **Efficiency at its Core**: The primary goal of SomRegionsAPI is to enhance the efficiency of your development process. By simplifying registration and providing easy access to essential states and districts, you can optimize your app's functionality and deliver a hassle-free experience to your users.
+🛠️ **Efficiency at its Core**: The primary goal of SomAtlasAPI is to enhance the efficiency of your development process. By simplifying registration and providing easy access to essential states and districts, you can optimize your app's functionality and deliver a hassle-free experience to your users.
 
 ## usage
 
 1. `api/states`
 
-```json
+```js
 {
-    fetch('')
+    fetch('https://www.api.somatlas.dev/api/v1/states')
     .then((res) => res.json())
     .then((data) => console.log(data))
 }
@@ -64,16 +64,16 @@ To embark on this journey of simplicity and efficiency, refer to the [Getting St
       }
       ]
     }
-    "total" : 2
+    "total" : 18
   }
 }
 ```
 
 1. `api/states/state/:id`
 
-```json
+```js
 {
-    fetch('')
+    fetch(' https://www.api.somatlas.dev/api/v1/states/1')
     .then((res) => res.json())
     .then((data) => console.log(data))
 }
@@ -109,6 +109,6 @@ To embark on this journey of simplicity and efficiency, refer to the [Getting St
 ## Author
 
 - Github [Github](https://github.com/Ashakour1)
-- X [Twitter](https://twitter.com/Ashakour17)
+- X [Twitter](https://twitter.com/somatlasdev)
 - LinkedIn [LinkedIn](https://www.linkedin.com/in/a-shakour-mohammed-90836725a/)
 - Email[Email](engshakrayare114@gmail.com)

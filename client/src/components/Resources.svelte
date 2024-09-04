@@ -1,8 +1,8 @@
 <section id="resources" class="bg-black">
     <div class="max-w-[1240px] mx-auto py-[4rem] px-5">
         <div class="text-center max-w-[850px] mx-auto ">
-            <h1 class="text-3xl font-bold">API Resources</h1>
-            <p class="pt-5 text-lg text-gray-400">SomAtlasAPI offers two key resources designed to enhance your application development:</p>
+            <h1 class="md:text-xl lg:text-3xl text-lg font-bold">API Resources</h1>
+            <p class="pt-5 md:text-lg lg:text-lg text-base text-gray-400">SomAtlasAPI offers two key resources designed to enhance your application development:</p>
         </div>
         
         <div class="my-20">

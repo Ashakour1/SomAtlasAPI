@@ -4,11 +4,11 @@
 <section class="bg-black">
     <div class="max-w-[1240px] mx-auto ">
     <div class=" max-w-[850px] pt-28 w-full h-full  mx-auto text-center flex flex-col justify-center  ">
-        <div class="px-4 md:px-0">
+        <div class="px-5 md:px-0">
             <h1 class="text-2xl  mx-auto font-bold">Welcome to <span class="text-green-300">SomAtlasAPI</span>
                 – Your Passport to Effortless App Development!</h1>
             <p class="text-lg pt-3  text-gray-400 lin">
-                SomAtlasAPI gives you simple access to up-to-date information about different regions in Somalia. If you're creating an app that needs details on Somali states and districts, SomAtlasAPI helps you get the right data quickly and easily, making your app better and easier for users.
+                SomAtlasAPI is a tool that offers simple and up-to-date information about different regions in Somalia. It provides quick and reliable data on Somali states and districts, making it easier to integrate accurate geographic details into your app.
                 </p>
         </div>
             <div class="flex justify-center">

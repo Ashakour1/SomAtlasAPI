@@ -1,6 +1,5 @@
 <script>
     import 'iconify-icon';
-    import whitelogo from '../../images/White.png';
     let isNavOpen = false;
 
     function toggleNav() {
@@ -14,14 +13,14 @@
 <header class="fixed w-full backdrop-blur-sm pt-2 z-40 bg-[rgba(0,0,0,.5)]">
     <div class="flex justify-between items-center max-w-[1125px] mx-auto relative px-4 md:px-0">
         <div class="text-2xl font-bold">
-            <a href="/"><img src={whitelogo} alt="logo" class="w-40"></a>
+            <a href="/"><img src="/images/White.png" alt="logo" class="w-28"></a>
         </div>
         <div class="">
-            <ul class="hidden md:flex font-bold">
-                <li class="p-5 hover:underline hover:text-green-300"><a href="/">Home</a></li>
-                <li class="p-5 hover:underline hover:text-green-300"><a href="#resources">Resources</a></li>
-                <li class="p-5 hover:underline hover:text-green-300"><a href="#features">Features</a></li>
-                <li class="p-5 hover:underline hover:text-green-300"><a href="https://docs.somatlas.dev">Docs</a></li>
+            <ul class="hidden md:flex">
+                <li class="p-5 text-sm hover:underline hover:text-green-300"><a href="/">Home</a></li>
+                <li class="p-5 text-sm hover:underline hover:text-green-300"><a href="#resources">Resources</a></li>
+                <li class="p-5 text-sm hover:underline hover:text-green-300"><a href="#features">Features</a></li>
+                <li class="p-5 text-sm hover:underline hover:text-green-300"><a href="https://docs.somatlas.dev">Docs</a></li>
             </ul>
         </div>
         {#if isNavOpen}

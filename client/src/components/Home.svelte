@@ -3,23 +3,28 @@
 </script>
 <section class="bg-black">
     <div class="max-w-[1240px] mx-auto ">
-    <div class=" max-w-[850px] pt-20 w-full min-h-screen mx-auto text-center flex flex-col justify-center  ">
+    <div class=" max-w-[850px] pt-28 w-full h-full  mx-auto text-center flex flex-col justify-center  ">
         <div class="px-2 md:px-0">
-            <h1 class="text-2xl font-bold">Welcome to <span class="text-green-300">SomAtlasAPI</span>
+            <h1 class="text-2xl  mx-auto font-bold">Welcome to <span class="text-green-300">SomAtlasAPI</span>
                 – Your Passport to Effortless App Development!</h1>
-            <p class="text-2xl pt-3  text-gray-400">
-                Are you a developer looking to seamlessly integrate user registration based on Somali states and districts? Look no further! SomAtlasAPI
-                is your go-to solution, meticulously designed to simplify the complexities of geographic data integration.
+            <p class="text-lg pt-3  text-gray-400 lin">
+                SomAtlasAPI gives you simple access to up-to-date information about different regions in Somalia. If you're creating an app that needs details on Somali states and districts, SomAtlasAPI helps you get the right data quickly and easily, making your app better and easier for users.
                 </p>
         </div>
             <div class="flex justify-center">
-               <a href="https://docs.somatlas.dev"><button class="w-36 py-3 my-8 rounded-md text-white font-semibold mx-2 border border-green-300  hover:bg-green-300 hover:text-black">Docs</button></a>
+               <a href="https://docs.somatlas.dev"><button class="w-44 py-2 my-8 rounded-md text-white font-semibold mx-2 border duration-1000 border-green-300  hover:bg-green-300 hover:text-black">Docs</button></a>
             </div>
+            
         
-          <div class="  items-center pt-32  ">
-            <iconify-icon icon="mdi:arrow-down" class="text-3xl text-green-300 animate-bounce w-6 h-6"></iconify-icon>
-          </div>
+         
     </div>
+    <div class="flex justify-center  max-w-[1000px] pb-5 mx-auto">
+        <img src="/images/landing.png" class="rounded hidden md:block" alt="">
+    </div>
+
+    <div class="flex flex-col justify-center items-center py-14  ">
+        <iconify-icon icon="mdi:arrow-down" class="text-3xl text-green-300 animate-bounce w-6 h-6"></iconify-icon>
+      </div>
     
 </div>
 </section>
